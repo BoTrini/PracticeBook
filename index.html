@@ -5,8 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Portfolio</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+        
     </head>
     <body>
     <header>
@@ -22,8 +24,20 @@
     </header>
     <main>
         <section>
-            <label>Work</label>
+            <label>About</label>
         </section>
+        <section>
+            <label>Work</label>
+            <pre>
+                <code class="language-javascript">
+                    function greet() {
+                    console.log("Hello, world!");
+                }
+                </code>
+            </pre>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+        </section>
+
         <section>
             <label for="contact-info" id="contact-info">Contact</label>
             <form id="contact-info">
