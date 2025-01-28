@@ -27,22 +27,11 @@
         </section>
         <section>
             <label>Work</label>
-            <pre>
-                <code class="language-css">
-                  /* Example CSS */
-                    body {
-                    font-family: Arial, sans-serif;
-                    background-color: #f4f4f4;
-                    color: #333;
-                    }
-                    header {
-                    background-color: #3498db;
-                    color: white;
-                    padding: 1rem;
-                    text-align: center;
-                    }
-                </code>
-            </pre>            
+            <div id="code-displays" name="code-displays">
+                <pre>
+                    <code id="css-code" class="language-css"></code>
+                  </pre>
+            </div>          
             <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
         </section>
 
@@ -65,6 +54,12 @@
         </section>
         <script src="" async defer></script>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
-    </body>
+    <script>
+        fetch('styles.css')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('css-code').textContent = data;
+            Prism.highlightAll(); // Apply syntax highlighting
+          });
+      </script>    </body>
 </html>
