@@ -1,3 +1,4 @@
+
 body {
     background-color:#d1cecd;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -67,9 +68,18 @@ input {
 
 #code-displays{
     display: flex;
-    max-width: 80%;
+    max-width: 40%;
+    max-height: 400px;
     justify-content: center;
     margin:0  auto;
+}
+div > label {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding:5px;
+    color: white;
 }
 
 form{
