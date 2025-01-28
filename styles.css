@@ -38,3 +38,36 @@ a:hover {
     text-decoration:underline;
     font-weight:800;
 }
+
+section{
+    width:100%;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+section > label {
+    display: block;
+    text-align: left;
+    border: ridge 4px;
+    background-color: black;
+    width: 100%;
+    padding:5px;
+    color: white;
+    text-decoration: underline;
+}
+
+label{
+    display: block;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+form{
+    width: 100%;
+    max-width:400px;
+    margin: 0 auto;
+}
