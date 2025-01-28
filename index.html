@@ -54,12 +54,13 @@
         </section>
         <script src="" async defer></script>
     </main>
-    <script>
-        fetch('styles.css')
-          .then(response => response.text())
-          .then(data => {
+        <script>
+            fetch('styles.css')
+            .then(response => response.text())
+            .then(data => {
             document.getElementById('css-code').textContent = data;
             Prism.highlightAll(); // Apply syntax highlighting
-          });
-      </script>    </body>
+            });
+        </script>    
+    </body>
 </html>
