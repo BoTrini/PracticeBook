@@ -5,7 +5,7 @@ body {
 }
 
 header{
-    width: auto;
+    width: 100%;
     padding: 0 10px;
     display:flex;
     justify-content: space-between;
@@ -68,6 +68,7 @@ input {
 
 #code-displays{
     display: flex;
+    flex-direction: column;
     width: 40%;
     max-width:60%;
     max-height: 400px;
@@ -80,6 +81,7 @@ input {
     max-height: 20px;
     background-color: black;
     color: white;
+    margin-bottom: 10px;
 }
 
 form{
