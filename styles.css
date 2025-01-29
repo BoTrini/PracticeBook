@@ -86,9 +86,10 @@ input {
 
 .displays {
     display:flex;
+    
+    width: 100%;
 }
 .css-display, .html_display {
-    display: flex;
     flex-direction: column;
     width: 40%;
     max-width:60%;
