@@ -46,7 +46,6 @@
                         <code id="css-code" class="language-css"></code>
                     </pre>
                 </div>
-                
                 <div class="html_display" name="html_display">
                     <label for="html_display" id="html_display_label" class="display_label">HTML</label>
                     <pre id="html_display" name="html_display">
@@ -77,12 +76,21 @@
         <script src="" async defer></script>
     </main>
         <script>
-            fetch('styles.css')
-            .then(response => response.text())
-            .then(data => {
-            document.getElementById('css-code').textContent = data;
-            Prism.highlightAll(); // Apply syntax highlighting
-            });
+    // Fetch and display CSS
+    fetch('styles.css')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('css-code').textContent = data;
+        Prism.highlightAll();
+    });
+
+    // Fetch and display HTML
+    fetch('index.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('html-code').textContent = data;
+        Prism.highlightAll();
+    });
         </script>    
     </body>
 </html>
