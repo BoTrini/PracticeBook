@@ -1,7 +1,7 @@
 /*A Peek Under the hood*/
 body {
     background-color:#d1cecd;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:"Montserrat", serif;
 }
 
 header{
@@ -12,6 +12,10 @@ header{
     align-items: baseline;
     background-color: black;
     color: #b8a8a4;
+}
+header p{
+    font-weight: 700;
+
 }
 nav {
     justify-content: space-evenly;
@@ -37,7 +41,7 @@ nav a{
 a:hover {
     color:#b8a8a4;
     text-decoration:underline;
-    font-weight:800;
+    font-weight:700;
 }
 
 section{
