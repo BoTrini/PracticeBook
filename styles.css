@@ -1,7 +1,12 @@
 /*A Peek Under the hood*/
+
 body {
     background-color:#d1cecd;
-    font-family:"Montserrat", serif;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
 }
 
 header{
