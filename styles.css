@@ -4,7 +4,7 @@ body {
     background-color:#d1cecd;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight:200;
     font-style: normal;
     
 }
@@ -68,6 +68,7 @@ section > label {
 label{
     display: block;
     width: 100%;
+    font-weight: 300;
 }
 
 input {
