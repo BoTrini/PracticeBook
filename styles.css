@@ -86,16 +86,27 @@ input {
 
 .displays {
     display:flex;
-    
-    width: 100%;
-}
-.css-display, .html_display {
-    flex-direction: column;
-    width: 40%;
-    max-width:60%;
-    max-height: 400px;
+    flex-direction: row;
+    gap: 20px;
     justify-content: center;
-    margin:10px  auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+
+.css-display, .html_display {
+    flex: 1;
+    max-width: 48%;
+    height: 500px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 10px
+
 }
 .display_label{
     text-align: center;
@@ -104,7 +115,18 @@ input {
     background-color: black;
     color: white;
     margin-bottom: 10px;
+    border-radius: 5px 5px 0 0;
 }
+
+pre {
+    margin: 0;
+    background-color: #2d2d2d; /* Dark background for code */
+    color: #f8f8f2; /* Light text color for code */
+    padding: 10px;
+    border-radius: 0 0 5px 5px; /* Rounded corners at the bottom */
+
+}
+
 
 form{
     width: 100%;
