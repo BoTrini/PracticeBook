@@ -100,7 +100,7 @@ input {
 .css-display, .html_display {
     flex: 1;
     max-width: 48%;
-    height: 500px;
+    height: 200px;
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 5px;

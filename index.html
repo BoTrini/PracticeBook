@@ -10,7 +10,20 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <style>
+            /* Optional: Add some styling to the icon */
+            .linkedin-icon {
+                font-size: 2rem;
+                color: #0077b5; /* LinkedIn's brand color */
+                transition: transform 0.2s ease;
+            }
+    
+            .linkedin-icon:hover {
+                transform: translateY(-5px); /* Makes the icon "jump" */
+            }
+        </style>        
     </head>
     <body>
     <header>
@@ -58,6 +71,15 @@
 
         <section>
             <label for="contact-info" id="contact-info" name="contact-info">Contact</label>
+
+            <div class="social_networks">
+                <div id="linked_in">
+                    <a href="www.linkedin.com/in/boristrinidad" target="_blank" class="linkedin-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
             <form id="contact-info">
                 <div>
                     <label>Name:</label>
