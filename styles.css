@@ -133,3 +133,23 @@ form{
     max-width:400px;
     margin: 0 auto;
 }
+
+.social_networks{
+    margin: 5px auto;
+}
+
+.img_fig{
+    margin: auto;
+}
+#boris_img{
+    margin: 10px 30%;
+    border: #2d2d2d solid 2px;
+    border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+
+}
+#bio{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    font-weight: 400;
+}
