@@ -135,14 +135,16 @@ form{
 }
 
 .social_networks{
+    display: flex;
     margin: 5px auto;
+    justify-content: right;
 }
 
 .img_fig{
     margin: auto;
 }
 #boris_img{
-    margin: 10px 30%;
+    margin: 10px 35%;
     border: #2d2d2d solid 2px;
     border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
 
