@@ -43,7 +43,7 @@
             <label id="about" name="about">About</label>
             <div id="about_section">
                 <figure class="img_fig">
-                    <img src="https://iili.io/2ZJA6ve.md.jpg" alt="boristrinidad" id="boris_img"/>
+                    <img src="https://iili.io/2ZJA6ve.md.jpg" alt="A portrait of Boris Trinidad" id="boris_img"/>
                     <figcaption id="bio">
                         Hi, I’m Boris Trinidad, a software engineer passionate about creating visually stunning and functional digital experiences. I’ve always been drawn to the intersection of creativity and technology.
 
@@ -80,26 +80,27 @@
 
             <div class="social_networks" id="social_networks">
                 <div id="linked_in">
-                    <a href="https://www.linkedin.com/in/boristrinidad" target="_blank" class="linkedin-icon">
+                    <a href="https://www.linkedin.com/in/boristrinidad" target="_blank" class="linkedin-icon" aria-label="Visit Boris Trinidad's LinkedIn profile">
                         
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
             </div>
 
-            <form id="contact-info">
+            <form id="contact-form">
                 <div>
-                    <label>Name:</label>
+                    <label for="name">Name:</label>
                     <input id="name" name="Name" placeholder="e.g: John Snow" type="text"/>
                 </div>
                 <div>
-                    <label>Email:</label>
-                    <input id="email" name="Name" placeholder="e.g: user@Email.com" type="email" /> 
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" placeholder="e.g: user@Email.com" type="email" /> 
                 </div>
                 <div>
-                    <label>Comments:</label>
-                    <input id="comments" name="Name" placeholder="Comments" type="text" />     
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" placeholder="Write your feedback Here..." type="text"></textarea>     
                 </div>
+
             </form>
         </section>
         <script src="" async defer></script>
@@ -122,4 +123,7 @@
     });
         </script>    
     </body>
+    <footer>
+        <p>&copy; 2023 Boris Trinidad. All rights reserved.</p>
+    </footer>
 </html>
