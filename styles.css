@@ -172,8 +172,10 @@ form{
     margin: auto;
 }
 #boris_img{
-    width: 40%;
+    object-fit: contain;
+    max-width: 30%;
     margin: 10px 30%;
+    margin-right: 40px;
     border: var(--accent-color) solid 2px;
     border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
 
