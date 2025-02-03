@@ -9,11 +9,11 @@
 */
 
 :root {
-    --primary-color: #293241; /* Rich Black */
+    --primary-color: #a69cacff; /* Rich Black */
     --secondary-color: #1B263B; /* Oxford Blue */
     --accent-color: #415A77; /* Yin MN Blue */
-    --text-color: #EE6C4D; /* Platinum White */
-    --background-color: #d1cecd; /* Light Gray */
+    --text-color:  #474973ff; /* Platinum White */
+    --background-color: #f1dac4ff; /* Light Gray */
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     color: var(--primary-color);
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight:200;
+    font-weight:400;
     font-style: normal;
     font-size: 16px;
     
@@ -56,6 +56,7 @@ header p{
 #menu a{
     text-decoration: none;
     color: var(--text-color);
+    font-weight: 400;
     
 }
 
@@ -71,10 +72,9 @@ header p{
 
 
 
-a:hover {
-    color:#b8a8a4;
+#menu  a:hover {
     text-decoration:underline;
-    font-weight:700;
+    font-weight:800;
 }
 
 section{
@@ -92,6 +92,7 @@ section > label {
     padding:5px 10px;
     margin: auto 5px;
     color: var(--text-color);
+    font-weight: bold;
 }
 
 label{
@@ -135,6 +136,7 @@ input {
     max-height: 20px;
     background-color:var(--primary-color);
     color:var(--text-color);
+    font-weight: bold;
     margin-bottom: 10px;
     border-radius: 5px 5px 0 0;
 }
@@ -170,8 +172,9 @@ form{
     margin: auto;
 }
 #boris_img{
-    margin: 10px 35%;
-    border: #2d2d2d solid 2px;
+    width: 40%;
+    margin: 10px 30%;
+    border: var(--accent-color) solid 2px;
     border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
 
 }
@@ -179,6 +182,11 @@ form{
     width: 80%;
     max-width: 600px;
     margin: auto;
+    font-weight: 400;
+}
+
+.contact-form-label{
+    margin-top: 20px;
     font-weight: 400;
 }
 
