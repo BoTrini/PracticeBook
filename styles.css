@@ -39,7 +39,7 @@ header{
     color: var(--text-color);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 header p{
     font-weight: 700;
@@ -96,9 +96,11 @@ section > label {
 }
 
 label{
-    display: block;
+    display: flex;
     width: 100%;
     font-weight: 300;
+    height: 2em;
+    j
 }
 
 input {
@@ -177,7 +179,7 @@ form{
     margin: 10px 30%;
     margin-right: 40px;
     border: var(--accent-color) solid 2px;
-    border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+    border-radius: 10px 10px 10px 10px; /* Rounded corners at the bottom */
 
 }
 #bio{
