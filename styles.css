@@ -100,12 +100,11 @@ label{
     width: 100%;
     font-weight: 300;
     height: 2em;
-    j
 }
 
 input {
-    display: block;
-    width: 100%;
+    display:block;
+    width:100%;
 }
 
 .displays {
